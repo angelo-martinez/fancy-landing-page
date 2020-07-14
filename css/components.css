@@ -18,3 +18,8 @@
   border-radius: 50%;
   transition: 0.3s margin-left;
 }
+
+.c-switch.on {
+  margin-left: 25px;
+  background: #bdc7c1;
+}
