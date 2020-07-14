@@ -29,3 +29,7 @@
     var(--theme-color-dark) 55%
   );
 }
+
+.o-row {
+  display: flex;
+}
