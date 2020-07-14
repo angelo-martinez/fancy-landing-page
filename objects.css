@@ -1,0 +1,31 @@
+.o-outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.o-wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+  width: 400vw;
+  height: 100vh;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+  background: var(--theme-color-light);
+  background: linear-gradient(
+    125deg,
+    var(--theme-color-light) 0%,
+    var(--theme-color-dark) 55%
+  );
+}
