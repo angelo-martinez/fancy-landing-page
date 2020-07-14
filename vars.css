@@ -1,3 +1,4 @@
 :root {
-  --theme-color: red;
+  --theme-color-light: rgba(255, 236, 210, 1);
+  --theme-color-dark: rgba(252, 182, 159, 0.51);
 }

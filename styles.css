@@ -5,7 +5,6 @@ h2,
 h3 {
   font-family: 'Cantarell', sans-serif;
   font-weight: bold;
-  color: var(--theme-color);
 }
 
 p {
@@ -29,17 +28,18 @@ p {
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
   width: 400vw;
-  height: 100%;
+  height: 100vh;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
   background: rgb(255, 236, 210);
   background: linear-gradient(
     125deg,
-    rgba(255, 236, 210, 1) 0%,
-    rgba(252, 182, 159, 1) 55%
+    var(--theme-color-light) 0%,
+    var(--theme-color-dark) 55%
   );
 }
 
@@ -51,7 +51,6 @@ p {
 .switch-wrapper {
   width: 50px;
   height: 25px;
-  margin: 10rem auto;
   border-radius: 30px;
   box-shadow: inset 0 0 5px #bbb;
   cursor: pointer;
