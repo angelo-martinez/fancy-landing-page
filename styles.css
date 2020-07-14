@@ -1,5 +1,5 @@
-@import './vars.css';
-@import './base.css';
-@import './objects.css';
-@import './components.css';
-@import './utilities.css';
+@import './css/vars.css';
+@import './css/base.css';
+@import './css/objects.css';
+@import './css/components.css';
+@import './css/utilities.css';
