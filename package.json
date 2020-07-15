@@ -1,0 +1,24 @@
+{
+  "name": "fancy-landing-page",
+  "version": "1.0.0",
+  "description": "Inspired by: https://dribbble.com/shots/13265063-Picolor-Creative-Google-Slide",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelo-martinez/fancy-landing-page.git"
+  },
+  "keywords": [],
+  "author": "Angelo Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelo-martinez/fancy-landing-page/issues"
+  },
+  "homepage": "https://github.com/angelo-martinez/fancy-landing-page#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
