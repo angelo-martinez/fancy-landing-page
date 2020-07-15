@@ -23,3 +23,10 @@
   margin-left: 25px;
   background: #bdc7c1;
 }
+
+.c-card {
+  background-color: #f7f7f7;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 43vw;
+}

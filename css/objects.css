@@ -16,7 +16,7 @@
 
 .o-wrapper {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 32% 32% 32% 4%;
   gap: 10px;
   width: 400vw;
   height: 100vh;
@@ -32,4 +32,6 @@
 
 .o-row {
   display: flex;
+  margin-left: -5px;
+  margin-right: -5px;
 }
