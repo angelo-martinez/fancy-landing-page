@@ -1,5 +1,12 @@
 body {
   color: var(--theme-font);
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 h1,

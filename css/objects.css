@@ -16,8 +16,10 @@
 
 .o-wrapper {
   display: grid;
-  grid-template-rows: 32% 32% 32% 4%;
-  gap: 10px;
+  grid-template-rows: calc(33.33% - 10px) calc(33.33% - 10px) calc(
+      33.33% - 10px
+    );
+  gap: 15px;
   width: 400vw;
   height: 100vh;
   transform: rotate(90deg) translateY(-100vh);
